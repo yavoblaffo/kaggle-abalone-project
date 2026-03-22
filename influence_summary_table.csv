@@ -1,0 +1,3 @@
+model,studentized_residual_abs_gt_3_count,high_leverage_count,high_cooks_distance_count,leverage_cutoff,cooks_distance_cutoff
+Model_1_Main_Effects_OLS,1332,4998,4841,0.0002758925122772168,5.517850245544336e-05
+Model_2_Enhanced_OLS_log_target,860,4873,4065,0.0004414280196435469,5.517850245544336e-05

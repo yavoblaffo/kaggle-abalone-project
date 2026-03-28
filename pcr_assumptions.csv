@@ -1,0 +1,10 @@
+model,assumption,check,value,guideline,result
+PCR OLS on selected PCs (M=6),Linearity,RESET test p-value,2.110102030164355e-142,p > 0.05 is desirable,Review
+PCR OLS on selected PCs (M=6),Linearity,Rainbow test p-value,0.9746651615523704,p > 0.05 is desirable,Pass
+PCR OLS on selected PCs (M=6),Independence of errors,Durbin-Watson statistic,1.9946250068077682,Around 2 is desirable,Pass
+PCR OLS on selected PCs (M=6),Homoscedasticity,Breusch-Pagan p-value,0.0,p > 0.05 is desirable,Review
+PCR OLS on selected PCs (M=6),Normality of residuals,Jarque-Bera p-value,0.0,p > 0.05 is desirable,Review
+PCR OLS on selected PCs (M=6),Normality of residuals,Shapiro-Wilk p-value,3.3565081479250534e-107,p > 0.05 is desirable,Review
+PCR OLS on selected PCs (M=6),Collinearity,Maximum VIF,1.0000000000000002,Below 5 is desirable,Pass
+PCR OLS on selected PCs (M=6),Influential observations,Count Cook's D > 4/n,4517.0,Smaller is desirable,Review
+PCR OLS on selected PCs (M=6),High leverage observations,Count leverage > 2p/n,4367.0,Smaller is desirable,Review

@@ -1,0 +1,2 @@
+selection_rule,selected_n_components,selected_cv_rmse_mean,selected_cv_rmse_se
+10-fold CV + one-standard-error rule,6,1.998957682732014,0.011579239138260469

@@ -1,0 +1,2 @@
+alpha_min,alpha_1se,n_features_alpha_min,n_features_alpha_1se,candidate_variables_for_subset_search
+0.0022063763304642795,0.016690427807807804,9,7,"shell_weight, whole_weight_1, height, diameter, sex_I, whole_weight, whole_weight_2"

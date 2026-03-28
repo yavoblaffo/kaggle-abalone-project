@@ -1,0 +1,3 @@
+model,selected_structure,train_r2,train_adj_r2,train_aic,train_bic,selected_cv_rmse
+Regularization-informed best subset OLS,shell_weight + whole_weight_1 + height + diameter + sex_I,0.602079794571935,0.6020523464988292,306158.33309292333,306213.4804818629,1.9992274642478602
+PCR (M=6),6 principal components,0.6021950975087287,0.6021621689108816,306139.32447959855,306203.66310002806,1.998957682732014

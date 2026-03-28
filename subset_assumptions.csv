@@ -1,0 +1,10 @@
+model,assumption,check,value,guideline,result
+Regularization-informed best subset OLS,Linearity,RESET test p-value,6.827480392460066e-95,p > 0.05 is desirable,Review
+Regularization-informed best subset OLS,Linearity,Rainbow test p-value,0.9790061485916496,p > 0.05 is desirable,Pass
+Regularization-informed best subset OLS,Independence of errors,Durbin-Watson statistic,1.9944400348714852,Around 2 is desirable,Pass
+Regularization-informed best subset OLS,Homoscedasticity,Breusch-Pagan p-value,0.0,p > 0.05 is desirable,Review
+Regularization-informed best subset OLS,Normality of residuals,Jarque-Bera p-value,0.0,p > 0.05 is desirable,Review
+Regularization-informed best subset OLS,Normality of residuals,Shapiro-Wilk p-value,4.009239997389355e-107,p > 0.05 is desirable,Review
+Regularization-informed best subset OLS,Collinearity,Maximum VIF,97.34924392030742,Below 5 is desirable,Review
+Regularization-informed best subset OLS,Influential observations,Count Cook's D > 4/n,4380.0,Smaller is desirable,Review
+Regularization-informed best subset OLS,High leverage observations,Count leverage > 2p/n,5063.0,Smaller is desirable,Review

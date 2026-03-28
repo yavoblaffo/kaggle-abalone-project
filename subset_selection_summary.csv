@@ -1,0 +1,2 @@
+selection_rule,selected_subset_size,selected_predictors,selected_cv_rmse_mean,selected_cv_rmse_se,selected_bic,selected_cp
+10-fold CV + one-standard-error rule on best subset frontier,5,shell_weight + whole_weight_1 + height + diameter + sex_I,1.9992274642478602,0.011299263922603352,306213.4804818629,3.9966664724578136
